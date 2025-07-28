@@ -71,6 +71,21 @@ This cleaned dataset will be used for:
 - Jupyter Notebook
 - GitHub
 
+## Day 3 – Window Functions, Age/Fare Grouping & Insights
+
+🔍 Focus:
+- Used SQL window functions (`OVER(PARTITION BY ...)`) to compute:
+  - Average survival rate by `Sex`, `Pclass`, and custom `AgeGroup`
+- Created custom columns:
+  - `AgeGroup` (Child, Adult, Senior)
+  - `FareGroup` (Low, High based on median Fare)
+- Analyzed survival rates across `FareGroup` + `Pclass`
+- Visualized findings with seaborn barplots
+
+📁 Outputs:
+- `data/titanic_enriched_day3.csv`: Enriched dataset with new features
+- `notebooks/day3.ipynb`: Full pipeline with transformations and insights
+
 ---
 
 ## 📬 Contact
